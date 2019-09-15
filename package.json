@@ -1,0 +1,26 @@
+{
+  "name": "setup-julialang",
+  "version": "1.0.0",
+  "description": "Setup for julia on github actions",
+  "main": "lib/setup-julia.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node lib/setup-julia.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoshiroma/setup-julialang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoshiroma/setup-julialang/issues"
+  },
+  "homepage": "https://github.com/brunoshiroma/setup-julialang#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/tool-cache": "^1.1.1"
+  }
+}

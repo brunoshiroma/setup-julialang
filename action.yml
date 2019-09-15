@@ -1,0 +1,10 @@
+name: 'Setup Julialang environment'
+description: 'Setup a Julialang environment and add it to the PATH, additionally providing proxy support'
+author: 'GitHub'
+inputs: 
+  julialang-version:
+    description: 'The julialang version'
+    default: '1.12'
+runs:
+  using: 'node12'
+  main: 'lib/setup-julia.js'
